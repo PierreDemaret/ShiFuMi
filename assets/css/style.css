@@ -12,7 +12,7 @@ img {
 }
 
 body {
-  background-image: url(/assets/img/backG.jpg);
+  background-image: url(./assets/img/backG.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

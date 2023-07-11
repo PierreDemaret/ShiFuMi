@@ -14,9 +14,9 @@ const userCount = document.querySelector('#userCount');
 let uCount = 0;
 const resetBtn = document.querySelector('#reset-btn');
 const userImgDiv = document.querySelector('#userImgDiv');
-const energeticSrc = '/assets/img/energetic.jpg';
-const psychicSrc = '/assets/img/psychic.jpg';
-const tentacleSrc = '/assets/img/tentacle.jpg';
+const energeticSrc = './assets/img/energetic.jpg';
+const psychicSrc = './assets/img/psychic.jpg';
+const tentacleSrc = './assets/img/tentacle.jpg';
 const computerImgDiv = document.querySelector('#computerImgDiv');
 const average = document.querySelector('#average');
 
