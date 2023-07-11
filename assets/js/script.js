@@ -14,9 +14,10 @@ const userCount = document.querySelector('#userCount');
 let uCount = 0;
 const resetBtn = document.querySelector('#reset-btn');
 const userImgDiv = document.querySelector('#userImgDiv');
-const energeticSrc = './img/energetic.jpg';
-const psychicSrc = './img/psychic.jpg';
-const tentacleSrc = './img/tentacle.jpg';
+const energeticSrc = new URL('./assets/img/energetic.jpg', window.location.href);
+// console.log(window.location.href);http://127.0.0.1:5500/index.html
+const psychicSrc = new URL('./assets/img/psychic.jpg', window.location.href);;
+const tentacleSrc = new URL('./assets/img/tentacle.jpg', window.location.href);
 const computerImgDiv = document.querySelector('#computerImgDiv');
 const average = document.querySelector('#average');
 
