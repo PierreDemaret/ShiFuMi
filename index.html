@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <title>Shi-Fu-Mi</title>
+  </head>
+  <body>
+    <script defer src="/assets/js/script.js"></script>
+    <div class="container-fluid">
+      <div class="row justify-content-start text-center">
+        <h2>Interdit d'alt f4</h2>
+        <div class="col-12 justify-content-start rules">
+          <p>La créature de l'énérgie térasse la créature de la pensée qui détruit la créature tentaculaire !</p>
+        </div>
+        <div class="justify-content-center text-center col-12">
+          <div class="col-12 d-flex justify-content-center image-fluid computer-img">
+            <img src="/assets/img/computer.jpg" id="duck" alt="computer" />
+          </div>
+          <p class="col-12" id="computerCount">Victoires :</p>
+        </div>
+        <div class="col-12"><p id="average"></p></div>
+        <div class="col-12 align-items-center" id="game-space">
+          <div class="row">
+            <div class="text-end col-5 d-none" id="userImgDiv"><img src="/assets/img/psychic.jpg" alt="psychic" class="selected-image" /></div>
+            <p id="result" class="col-2"></p>
+            <div class="col-5 text-start d-none" id="computerImgDiv"><img src="/assets/img/tentacle.jpg" alt="tentacle" class="selected-image" /></div>
+          </div>
+        </div>
+        <div class="col-12 justify-content-center d-flex">
+          <p class="col-4 user-victory text-center" id="userCount">Victoires :</p>
+        </div>
+        <div id="choice-box" class="image-fluid col-12 d-flex justify-content-evenly">
+          <img src="/assets/img/energetic.jpg" alt="energetic" class="selected-image" id="energetic" />
+          <img src="/assets/img/psychic.jpg" alt="psychic" class="selected-image select" id="psychic" />
+          <img src="/assets/img/tentacle.jpg" alt="tentacle" class="selected-image" id="tentacle" />
+        </div>
+        <div class="d-flex justify-content-evenly">
+          <button type="button" class="btn btn-warning col-3" id="start-btn">ShiFuMi</button>
+          <button type="button" class="btn bg-danger-subtle col-3" id="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
