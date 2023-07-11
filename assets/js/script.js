@@ -14,9 +14,9 @@ const userCount = document.querySelector('#userCount');
 let uCount = 0;
 const resetBtn = document.querySelector('#reset-btn');
 const userImgDiv = document.querySelector('#userImgDiv');
-const energeticSrc = './assets/img/energetic.jpg';
-const psychicSrc = './assets/img/psychic.jpg';
-const tentacleSrc = './assets/img/tentacle.jpg';
+const energeticSrc = '../img/energetic.jpg';
+const psychicSrc = '../img/psychic.jpg';
+const tentacleSrc = '../img/tentacle.jpg';
 const computerImgDiv = document.querySelector('#computerImgDiv');
 const average = document.querySelector('#average');
 
@@ -128,7 +128,7 @@ function vibration(imgDiv, imgDiv1) {
   }
 }
 let winRate = 0;
-
+// win Rate
 const calculerWinRate = (victoires, total) => {
   // Vérification pour éviter une division par zéro
   if (total === 0) {
